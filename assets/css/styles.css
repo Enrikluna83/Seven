@@ -104,7 +104,7 @@ body::before {
   height: auto;
   margin-bottom: 30px;
   animation: pulse 2s infinite ease-in-out;
-  filter: drop-shadow(0 0 10px rgba(139, 0, 0, 0.7));
+  filter: drop-shadow(0 0 10px rgb(7, 7, 192));
 }
 
 .loader-bar {
@@ -118,7 +118,7 @@ body::before {
 .loader-progress {
   height: 100%;
   width: 0%;
-  background-color: #8b0000;
+  background-color: rgb(7, 7, 192);
   border-radius: 2px;
   animation: loading 3s ease-in-out infinite;
 }
@@ -161,7 +161,7 @@ body::before {
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-  border: 1px solid #333;
+  border: 2px solid #4267B2;
 }
 
 .hero-title {
@@ -205,8 +205,9 @@ body::before {
   font-size: 1.5rem;
 }
 
-.instagram { color: #E1306C; }
-.facebook { color: #4267B2; }
+.instagram { color: black; }
+.facebook { color: black; }
+.whatsapp { color: black } 
 
 @media (max-width: 768px) {  
   .social-media {
@@ -787,8 +788,7 @@ a {
 
 .instagram { background: #E1306C; }
 .facebook { background: #4267B2; }
-.tiktok { background: #69C9D0; }
-.youtube { background: rgb(7, 7, 192); }
+.whatsapp { background: #25D366; }
 
 /* Horario */
 .schedule {
