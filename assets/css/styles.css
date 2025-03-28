@@ -1,6 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap");
 
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -187,7 +188,7 @@ body::before {
   gap: 0.5rem;
   color: black;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2.3rem;
   transition: all 0.3s ease;
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
